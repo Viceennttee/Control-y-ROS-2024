@@ -4,7 +4,7 @@
 class Dog:
     #atributos de la clase(variables globales)
     legs =4
-    all_dogs=set() #también es una lista o arreglo, solo que no permite elementos repetidos
+    all_dogs=set() #set también es una lista o arreglo, solo que no permite elementos repetidos
     
 
 

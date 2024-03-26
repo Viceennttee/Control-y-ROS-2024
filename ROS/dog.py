@@ -3,9 +3,11 @@
 #línea que tienen todos los scripts para ver cual es su interprete
 
 class dog:
-    def __init__(self, color: str='brown') -> None:
+    #__init__ es el constructor de la clase 
+    #se toma el objeto que se crea (self) y un color opcional que por defecto es brown
+    def __init__(self, color: str='brown') -> None: #->None es porque no devuelve nada
         self.color=color#atributo publicpo
-        self._mood=5 #humor del perro que es privado por el "_"
+        self._mood=5 #atributo del humor del perro que es privado por el "_"
         pass
     def make_sound(self)->None:
         if self._mood<0:

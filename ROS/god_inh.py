@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from mammal import Mammal
+
+from mammal import Mammal #se importa desde el archivo mammal.py
 
 class Dog(Mammal):
     def __init__(self, color='gray') -> None:
